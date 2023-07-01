@@ -17,13 +17,22 @@ body {
 }
 
 body > * {
-    padding: 0 250px;
-}
+    padding: 0 20%;
+    align-items: center;
 
+}
+/* HEADER START */
+.one {
+    background-color: #1f2937;
+}
+.three {
+    background-color: #e5e7eb;
+    flex-basis: 200px;
+}
 header {
     display: flex;
-    flex-basis: 40px;
-    background-color: #1f2937;
+    align-items: center;
+    padding: 10px 0;
 }
 
 .nav {
@@ -47,6 +56,25 @@ header {
     color: #E5E7EB;
     margin-left: 15px;
 }
+/* HEADER END */
+/* HERO START */
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    align-items: flex-start;
+    padding: 20px 0;
+    justify-content: space-between;
+    height: 270px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 426px;
+    align-items: flex-start;
+    align-self:stretch;
+    justify-content: flex-start;
+}
 
 .hero-left h1 {
     font-size: 48px;
@@ -54,7 +82,26 @@ header {
     color: #f9faf8;
 }
 
-.hero {
-    background-color: #1f2937;
+.hero-left p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 14px 0;
 }
 
+.btn-sign-up {
+    color: white;
+    background-color: #3882f6;
+    font-weight: 800;
+    font-size: large;
+    padding: 5px 28px;
+    border-radius: 8px;
+    border-style:none;
+    
+}
+
+.hero img{
+    height: 100%;
+    flex: 0 1 auto;
+}
+
+/* HERO END */
