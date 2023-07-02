@@ -189,11 +189,12 @@ header {
 .four {
     flex-basis: 250px;
     display: flex;
+    justify-content: center;
 }
 
 .action {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     border-radius: 8px;
     flex-basis: 100%;
     padding: 40px 100px;
@@ -204,6 +205,21 @@ header {
     color: white;
 }
 
-.btn-sign-up {
+.action .btn-sign-up {
     border: 2px solid white;
+    align-self: center;
+    flex: 0 0 auto;
+    margin-left: 16px;
 }
+/* FOUR END */
+
+/* FOOTER START */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 90px;
+    background-color: #1f2937;
+    color: white;
+}
+/* FOOTER END */
